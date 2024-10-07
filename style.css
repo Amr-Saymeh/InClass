@@ -1,0 +1,39 @@
+header,nav{
+    position: sticky;
+    z-index: 4;
+    top: 0;
+    background-color: #F0F0F0;
+    padding: 10px;
+}
+nav{
+    background-color: #a6a6a6;
+    margin: 10px auto;
+    text-align: center;
+}
+article{
+    width: 60%;
+    margin: 20px auto;
+    background-color: #E0E0E0;
+    padding: 15px;
+    position:absolute;
+    z-index: 3;
+}
+main{
+    position: relative;
+}
+aside{
+    width: 30%;
+    margin: 20px auto;
+    background-color: #D0D0D0;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    z-index: 1;
+    background-color: #C0C0C0;
+}
