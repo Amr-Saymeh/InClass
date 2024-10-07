@@ -9,6 +9,14 @@ header,nav{
     position: relative;
     text-align: center;
 }
+nav{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
 article{
     width: 60%;
     margin: 20px auto;
@@ -35,4 +43,6 @@ footer{
     padding: 10px;
     z-index: 1;
     background-color: #C0C0C0;
+    width: 100%;
+    text-align: center;
 }
