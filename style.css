@@ -1,13 +1,14 @@
 header,nav{
-    position: sticky;
+    position: fixed;
     z-index: 4;
     top: 0;
     background-color: #F0F0F0;
     padding: 10px;
+    margin: 20px auto;
+    width:100%;
+    position: relative;
 }
 nav{
-    background-color: #a6a6a6;
-    margin: 10px auto;
     text-align: center;
 }
 article{
